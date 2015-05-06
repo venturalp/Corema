@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "Myriad";    
+    src: url(fonts/MyriadPro-Regular.woff) format('woff');    
+}
+
+body
+{
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.menu{
+	height: 98px;
+	background-color:#F5F0EC;
+	vertical-align: middle;
+	padding-left: 187px;
+	padding-top: 22px;
+    font-family: Myriad, sans-serif;
+    display: grid;
+}
+
+.linha{
+	width: 960px;
+	border: 2px solid;
+	margin: 0 auto;
+	margin-bottom: 2px;
+	border-color: #F05E6A;
+}
+
+.linha2{
+	width: 960px;
+	border: 2px solid;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	border-color: #00385C;	
+}
+
+.suamarca{
+	font-style: italic;
+	font-family: Myriad, sans-serif;
+	font-size: 20pt;
+}
+
+.destaque{
+	background-image: url("images/destaque.jpg");
+	height: 410px;	
+	padding-top: 20px;
+	padding-left: 500px;
+}
+
+.destaque form{
+	background-color: #00385C;
+	width: 224px;
+	height: 278px;
+	color: #FFF;
+    font-size: 12px;
+	font-family: Myriad, sans-serif;
+	font-style: italic;
+	line-height: 1.4;
+	padding: 20px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.destaque input[type="text"]{
+	background-color: #EEEEEE;
+    color: black;
+	border: none;
+	line-height: 22px;
+    font-style: normal;
+    padding: 0px 5px 0px 5px;
+}
+
+.destaque input[type="submit"]{
+	background-color: #AB0917;
+	color: #FFF;
+	font-weight: bold;
+	border: none;
+	padding: 2px;
+    font-size: 14px;
+	width: 80px;
+}
+
+.destaque input[type="submit"]:hover{
+	background-color: #F05E6A;	
+}
+
+.destaque h2{
+	margin: 0;
+	font-size: 22px;
+	margin-bottom: 2px;
+}
+
+.destaque input{
+	margin-bottom: 6px;
+}
+
+nav{
+	margin: 0 auto;	
+    display: block;
+}
+
+nav a{
+	font-weight: bold;
+	font-style: italic;
+	font-family: Myriad, sans-serif;
+    font-size: 14pt;
+	color: #AB0917;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #F05E6A;
+}
+
+nav ul {
+	background-color: #F5F0EC;	
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding-top:10px;
+}
+
+nav ul li{
+	display: inline;
+	margin: 0 20px;
+}
+
+nav img{
+	float: left;
+}
+
+.porque{
+	height: 550px;
+	width: 960px;
+	background-color: #F05E6A;
+	margin: 5px auto 0 auto;
+	position: relative;
+    padding-top: 30px;
+}
+
+.profissionais{
+	display: table;
+	height: 115px;
+	width: 960px;
+	background-color: #00385C;
+    color: white;
+}
+
+.profissionais div{
+	color: #FFF;
+	font-size: 14pt;
+	font-family: Myriad, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+footer{
+	height: 70px;
+	width: 960px;
+	background-color: #00385C;	
+}
+
+footer div{
+	color: #FFF;
+	font-size: 8pt;
+	font-family: Myriad, sans-serif;
+	text-align: center;
+	
+	position:relative;
+    line-height: 160%;
+}
+
+.icons-nav {
+    margin-top: 40px;
+    margin-left: -200px;
+}
+
+.fone-nav {
+    margin-top: -28px;
+    margin-left: 605px;
+}
+
+.negrito {
+    font-weight: bolder;
+}
+
+.formulario {
+    font-family: Myriad, sans-serif;
+}
+
+.formulario label{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.mail {
+    font-size: 1.6em;
+    line-height: 200%;
+}
+
+.mail::before{
+    content: url('images/mail.gif');
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+}
+
+.home-icons {
+    display: inline;
+}
+
+.porque ul {
+    list-style: none;
+}
+
+.porque ul li {
+    display: inline;
+    margin-top: 10px;
+}
+
+iframe {
+    margin-left: 230px;
+    margin-top: 60px;
+}
