@@ -214,20 +214,57 @@ footer div{
     top: 6px;
 }
 
-.home-icons {
-    display: inline;
-}
-
 .porque ul {
     list-style: none;
 }
 
 .porque ul li {
     display: inline;
-    margin-top: 10px;
+    margin-top: -10px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    border-radius: 50%;
+    font-size: 80pt;
+    font-style: 900;
+    text-align: center;
+    padding-right: 70px;
+    margin-left: 30px;
+    padding-left: 15px;
+    font-family: Myriad, sans-serif;
 }
 
 iframe {
     margin-left: 230px;
-    margin-top: 60px;
+    margin-top: 20px;
+}
+
+.circulo {
+    margin-left: 150px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    background-color: #FFF;
+    display: inline-flex;
+}
+
+
+.circulo p{
+    color: #F05E6A;
+    width: 100px;
+    text-align: center;
+    font-size: 60pt;
+    font-weight: bolder;
+    font-family: Myriad, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.circulo span {
+    color: white;
+    font-family: Myriad, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 120px;
+    width: 100%;
 }
