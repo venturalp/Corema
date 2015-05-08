@@ -287,6 +287,7 @@ iframe {
 
 
 .icon-group {
-    left: 12%;
-    position: relative;
+    left: 50%;
+    right: 50%;
+    width: 100%;
 }
