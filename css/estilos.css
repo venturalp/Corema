@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "Myriad";
+    src: url(../fonts/MyriadPro-Regular.woff) format('woff');
+}
+
+body
+{
+	margin: 0;
+    font-family: Myriad, sans-serif;
+}
+
+nav{
+    vertical-align: middle;
+    background-color:#F5F0EC;
+	vertical-align: middle;
+	padding-left: 187px;
+	padding-top: 22px;
+    margin: 0 auto;
+    display: block;
+    height: 76px;
+}
+
+nav img{
+    float: left;
+}
+
+nav ul {
+	background-color: #F5F0EC;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding-top:10px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a{
+	font-weight: bold;
+	font-style: italic;
+	font-family: Myriad, sans-serif;
+    font-size: 14pt;
+	color: #AB0917;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #F05E6A;
+}
+
+
+
+.clearfix {
+    clear: both;
+}
+
+.contatos {
+    float: right;
+    position: relative;
+    margin-right: 6%;
+    top: -52px;
+}
+
+.contatos span {
+    position: relative;
+    top: -8px;
+    margin-left: 5px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.linha {
+    position: relative;
+	border: 2px solid;
+	margin: 0 auto;
+}
+
+.cor1{
+    border-color: #F05E6A;
+    margin-bottom: 2px;
+}
+
+.cor2{
+    border-color: #00385C;
+}
+
+.destaque{
+	background-image: url("../images/destaque.jpg");
+	height: 390px;
+	padding-left: 52%;
+    padding-top: 2%;
+}
+
+.destaque form{
+	background-color: #00385C;
+	width: 184px;
+	height: 238px;
+	color: #FFF;
+    font-size: 12px;
+	font-family: Myriad, sans-serif;
+	font-style: italic;
+	line-height: 1.4;
+	padding: 20px;
+    top: -12px;
+    left: 45px;
+    position: relative;
+}
+
+.destaque input[type="text"]{
+	background-color: #EEEEEE;
+    color: black;
+	border: none;
+	line-height: 22px;
+    font-style: normal;
+    padding: 0px 5px 0px 5px;
+}
+
+.destaque input[type="submit"]{
+	background-color: #AB0917;
+	color: #FFF;
+	font-weight: bold;
+	border: none;
+	padding: 2px;
+    font-size: 14px;
+	width: 80px;
+}
+
+.destaque input[type="submit"]:hover{
+	background-color: #F05E6A;
+}
+
+.destaque h2{
+	margin: 0;
+	font-size: 22px;
+	margin-bottom: 2px;
+}
+
+.destaque input{
+	margin-bottom: 6px;
+}
+
+.suamarca{
+    float: left;
+	font-style: italic;
+	font-family: Myriad, sans-serif;
+	font-size: 20pt;
+    top: -30px;
+    position: relative;
+}
+
+.formulario label{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.porque{
+	height: 550px;
+	width: 960px;
+	background-color: #F05E6A;
+	margin: 0 auto;
+	position: relative;
+    padding-top: 30px;
+}
+
+.profissionais{
+	display: table;
+	height: 115px;
+	width: 960px;
+	background-color: #00385C;
+    color: white;
+}
+
+.profissionais div{
+	color: #FFF;
+	font-size: 14pt;
+	font-family: Myriad, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+footer{
+	height: 70px;
+	width: 960px;
+	background-color: #00385C;
+}
+
+footer div{
+	color: #FFF;
+	font-size: 8pt;
+	font-family: Myriad, sans-serif;
+	text-align: center;
+	position:relative;
+    line-height: 160%;
+}
+
+.icons-nav {
+    margin-top: 40px;
+    margin-left: -200px;
+}
+
+.fone-nav {
+    margin-top: -28px;
+    margin-left: 605px;
+}
+
+.mail {
+    font-size: 1.6em;
+    line-height: 200%;
+}
+
+.mail::before{
+    content: url('../images/mail.gif');
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+}
+
+.porque ul {
+    list-style: none;
+}
+
+.porque ul li {
+    display: inline;
+    margin-top: -10px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    border-radius: 50%;
+    font-size: 80pt;
+    font-style: 900;
+    text-align: center;
+    padding-right: 70px;
+    margin-left: 30px;
+    padding-left: 15px;
+    font-family: Myriad, sans-serif;
+}
+
+iframe {
+   margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.circulo {
+    margin-left: 150px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    background-color: #FFF;
+    display: inline-flex;
+    position: relative;
+}
+
+
+.icon{
+    color: #F05E6A;
+    text-align: center;
+    font-size: 60pt;
+    font-weight: bolder;
+    margin: auto;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+.desq {
+    color: white;
+    font-family: Myriad, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+.container-icons {
+    display: inline-flex;
+}
