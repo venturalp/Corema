@@ -136,7 +136,7 @@ nav a:hover{
 
 .destaque h2{
 	margin: 0;
-	font-size: 22px;
+	font-size: 18px;
 	margin-bottom: 2px;
 }
 
@@ -262,9 +262,6 @@ iframe {
     margin-left: 5%;
 }
 
-
-
-
 .icon{
     color: #F05E6A;
     text-align: center;
@@ -275,6 +272,7 @@ iframe {
     float: left;
     position: relative;
 }
+
 .desq {
     color: white;
     font-family: Myriad, sans-serif;
