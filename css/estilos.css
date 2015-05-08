@@ -242,21 +242,27 @@ footer div{
 }
 
 iframe {
-   margin: 0 auto;
+    padding-top: 4.5%;
+    margin: 100px auto;
     position: relative;
     display: block;
 }
 
 .circulo {
-    margin-left: 150px;
     width: 100px;
     height: 100px;
     border: 1px solid #FFF;
     border-radius: 50%;
     background-color: #FFF;
     display: inline-flex;
-    position: relative;
+    float: left;
 }
+
+.cir-left{
+    margin-left: 5%;
+}
+
+
 
 
 .icon{
@@ -274,9 +280,15 @@ iframe {
     font-family: Myriad, sans-serif;
     font-size: 22px;
     font-weight: bolder;
+    margin-left: 10px;
     margin-top: 25px;
+    float: left;
+    position: relative;
 }
 
-.container-icons {
-    display: inline-flex;
+
+
+.icon-group {
+    left: 12%;
+    position: relative;
 }
