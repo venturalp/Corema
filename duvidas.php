@@ -14,8 +14,8 @@
 			<header>
                 <?php include("header.html"); ?>
 			</header>
-			<section>
-
+			<section class="duvidas">
+                <img src="images/duvidas.jpg"/>
 			</section>
 			<?php include("footer.html"); ?>
 		</div>
