@@ -2,39 +2,17 @@
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>Corema - Consultoria em Registro de Marcas</title>
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="prefixfree.min.js"></script>
 		<script src="html5shiv-printshiv.min.js"></script>
         <script src="jquery-2.1.3.min.js" type="text/javascript"></script>
-        <script>
-            var include = function(beReplacedId,url){
-                    jQuery.get(url,function(data){
-                        jQuery(beReplacedId).replaceWith(data);
-
-                    });
-        </script>
 	</head>
 	<body>
 		<div class="container">
 			<header>
-				<nav>
-				    <img src="images/logo.jpg" width="176px">
-					<ul>
-						<li><a href="#">A Empresa</a></li>
-						<li><a href="#">Área do Cliente</a></li>
-						<li><a href="#">Dúvidas</a></li>
-						<li><a href="#">Informativo</a></li>
-					</ul>
-				</nav>
-                <p class="contatos">
-                <a href="#"><img src="images/fb_icon.gif"></a>
-                <a href="#"><img src="images/whatsapp_icon.gif"></a>
-                <span>(11) 94763-5076</span>
-                </p>
-                <div class="linha cor1"></div>
-			    <div class="linha cor2"></div>
+                <?php include("header.html"); ?>
 			</header>
 			<section class="destaque">
                 <div class="suamarca">Sua marca em evidência!<br><strong>REGISTRE SUA MARCA.</strong></div>
@@ -73,7 +51,7 @@
 			<div class="profissionais">
 				<div>Contamos com profissionais especializados e competentes para atender<br>sua empresa e levar as soluções que você realmente precisa!</div>
 			</div>
-			<footer><div><span class="mail">contato@coremamarcas.com.br</span><br>© Copyright 2015 • Corema • Todos os direitos reservados • Termos de Uso • Contato</div></footer>
+			<?php include("footer.html"); ?>
 		</div>
 	</body>
 </html>
