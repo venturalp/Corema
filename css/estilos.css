@@ -302,21 +302,6 @@ iframe {
     position: relative;
 }
 
-.duvidas {
-    background-color:#F5F0EC;
-    width: 100%;
-    display:         flex;
-    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
-    justify-content: center;
-    align-items: center;
-    clear: both;
-}
-
-.duvidas img{
-    display: block;
-    left: 50%;
-}
-
 .section-padrao {
     background-color: #F5F0EC;
     position: relative;
