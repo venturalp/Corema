@@ -385,7 +385,7 @@ h1{
 }
 
 .pesquise div {
-    background-image: url('/images/bt-pesquise.gif');
+    background-image: url('/corema/images/bt-pesquise.gif');
     position:relative;
     margin: 0px;
     padding: 0px;
@@ -394,7 +394,7 @@ h1{
 }
 
 .pesquise div:hover {
-    background-image: url('/images/bt-pesquise-hover.gif');
+    background-image: url('/corema/images/bt-pesquise-hover.gif');
 }
 
 .pesquise-container {
@@ -466,19 +466,19 @@ h1{
 }
 
 .bt-azul div {
-    background-image: url('/images/bt-azul.gif');
+    background-image: url('/corema/images/bt-azul.gif');
 }
 
 .bt-azul div:hover {
-    background-image: url('/images/bt-azul-hover.gif');
+    background-image: url('/corema/images/bt-azul-hover.gif');
 }
 
 .bt-cinza div {
-    background-image: url('/images/bt-cinza.gif');
+    background-image: url('/corema/images/bt-cinza.gif');
 }
 
 .bt-cinza div:hover {
-    background-image: url('/images/bt-cinza-hover.gif');
+    background-image: url('/corema/images/bt-cinza-hover.gif');
 }
 
 .bt-padrao div {
