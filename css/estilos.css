@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Myriad";
-    src: url(../fonts/MyriadPro-Regular.woff) format('woff');
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+       url('../fonts/MyriadPro-Regular.woff') format('woff'),
+       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+       url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
 }
 
 body
@@ -12,8 +17,7 @@ body
 nav{
     vertical-align: middle;
     background-color:#F5F0EC;
-	vertical-align: middle;
-	padding-left: 187px;
+	padding-left: 100px;
 	padding-top: 22px;
     margin: 0 auto;
     display: block;
@@ -30,6 +34,8 @@ nav ul {
 	list-style: none;
 	margin: 0;
 	padding-top:10px;
+    position: absolute;
+    margin-left: 180px;
 }
 
 nav ul li{
@@ -169,10 +175,12 @@ nav a:hover{
 
 .profissionais{
 	display: table;
-	height: 115px;
+    padding-top: 70px;
+    padding-bottom: 20px;
 	width: 960px;
 	background-color: #00385C;
     color: white;
+    margin-bottom: 0px;
 }
 
 .profissionais div{
@@ -186,7 +194,7 @@ nav a:hover{
 }
 
 footer{
-	height: 70px;
+	height: 100%;
 	width: 960px;
 	background-color: #00385C;
 }
@@ -198,6 +206,8 @@ footer div{
 	text-align: center;
 	position:relative;
     line-height: 160%;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .icons-nav {
@@ -305,4 +315,226 @@ iframe {
 .duvidas img{
     display: block;
     left: 50%;
+}
+
+.section-padrao {
+    background-color: #F5F0EC;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 155px;
+    padding-right: 155px;
+}
+
+h1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 0px;
+    color: #F05E6A;
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.empresa h1{
+    margin-bottom: 50px !important;
+}
+
+.subtitulo{
+    color: #F05E6A;
+    font-size: 1.5em;
+}
+
+.duvidas article p{
+    color: #858585;
+    font-size: 11pt;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+
+.duvidas article p:last-child{
+    margin-bottom: 0px;
+    clear: both;
+}
+
+.duvidas article h2:first-child{
+    margin-top: 40px;
+}
+
+.duvidas article h2 {
+    font-size: 1.3em;
+}
+
+.empresa{
+    width: 650px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.empresa-div{
+    margin-left: 200px !important;
+    position: relative;
+}
+
+.empresa p {
+    width: 500px;
+    color: #858585;
+    font-style: italic;
+}
+
+.empresa p:first-child{
+    margin-top: 30px;
+}
+
+.empresa p:last-child{
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+
+
+.borda-empresa {
+    float: right;
+    display: inline;
+    clear: both;
+    position: absolute;
+    top: 58px;
+    left: 690px;
+}
+
+.pesquise div {
+    background-image: url('/images/bt-pesquise.gif');
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    height: 44px;
+    width: 170px;
+}
+
+.pesquise div:hover {
+    background-image: url('/images/bt-pesquise-hover.gif');
+}
+
+.pesquise-container {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+    -webkit-align-content: space-around; /* Safari 7.0+ */
+    display: flex;
+    width: 170px;
+    padding-bottom: 30px;
+    margin-left: 230px;
+}
+
+.pesquise{
+    text-decoration: none;
+}
+
+.botao{
+    color: white;
+    font-family: Myriad, sans-serif;
+    font-size: 12pt;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 12px;
+}
+.pesquise p{
+    width: 80px;
+    padding-top: 7px;
+    margin-left: 65px;
+}
+
+.contato {
+    position: relative;
+}
+
+.form-padrao textarea, .form-padrao input{
+    width: 462px;
+    margin-bottom: 20px;
+    border: 0px;
+    font-size: 16pt;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 2px 2px 1px #CCC;
+    color: #858585;
+}
+
+.form-padrao textarea{
+    height: 110px;
+}
+
+.form-padrao{
+    padding-left: 75px;
+}
+
+.form-padrao label{
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+.sub-contato {
+    padding-left: 75px;
+}
+
+.cliente {
+    position: relative;
+}
+
+.cliente h1{
+    margin-bottom: 30px;
+    padding-left: 70px;
+}
+
+.bt-azul div {
+    background-image: url('/images/bt-azul.gif');
+}
+
+.bt-azul div:hover {
+    background-image: url('/images/bt-azul-hover.gif');
+}
+
+.bt-cinza div {
+    background-image: url('/images/bt-cinza.gif');
+}
+
+.bt-cinza div:hover {
+    background-image: url('/images/bt-cinza-hover.gif');
+}
+
+.bt-padrao div {
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    height: 37px;
+    width: 170px;
+    text-decoration: none;
+}
+
+.bt-padrao div:hover {
+    text-decoration: none;
+}
+
+.botao-container {
+    width: 170px;
+    height: 37px;
+    text-decoration: none;
+    padding-bottom: 30px;
+    display: table-cell;
+    position: relative;
+}
+
+.botao-container a{
+    text-decoration: none;
+}
+
+.botoes-login {
+    position: relative;
+    padding-left: 120px;
+}
+
+.botoes-login .botao-container:last-child {
+    padding-left: 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
