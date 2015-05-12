@@ -14,9 +14,23 @@
 			<header>
                 <?php include("header.html"); ?>
 			</header>
-			<section class="section-padrao">
+			<section class="section-padrao cliente">
+                <h1>LOGIN: </h1>
+                <form class="form-padrao">
+                    <label>E-mail:</label><br>
+                    <input type="text" id="nome"><br>
+                    <label>Senha:</label><br>
+                    <input type="password" id="email"/><br>
+                </form>
+                <div class="botoes-login">
+                    <div class="botao-container">
+                        <a href="#" class="bt-padrao bt-azul"><div><p class="botao">ENTRAR</p></div></a>
+                    </div>
+                    <div class="botao-container">
+                        <a href="#" class="bt-padrao bt-cinza"><div><p class="botao">REGISTRAR</p></div></a>
+                    </div>
+                </div>
             </section>
-            <?php include("pesquise_marca.html"); ?>
 			<?php include("footer.html"); ?>
 		</div>
 	</body>

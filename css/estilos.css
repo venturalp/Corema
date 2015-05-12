@@ -411,6 +411,7 @@ h1{
     font-size: 12pt;
     line-height: 100%;
     text-align: center;
+    padding-top: 12px;
 }
 .pesquise p{
     width: 80px;
@@ -422,7 +423,7 @@ h1{
     position: relative;
 }
 
-.form-contato textarea, .form-contato input{
+.form-padrao textarea, .form-padrao input{
     width: 462px;
     margin-bottom: 20px;
     border: 0px;
@@ -432,19 +433,87 @@ h1{
     color: #858585;
 }
 
-.form-contato textarea{
+.form-padrao textarea{
     height: 110px;
 }
 
-.form-contato{
+.form-padrao{
     padding-left: 75px;
 }
 
-.form-contato label{
+.form-padrao label{
     font-weight: bolder;
     font-size: 15pt;
 }
 
 .sub-contato {
     padding-left: 75px;
+}
+
+.cliente {
+    position: relative;
+}
+
+.cliente h1{
+    margin-bottom: 30px;
+    padding-left: 70px;
+}
+
+.bt-azul div {
+    background-image: url('/images/bt-azul.gif');
+}
+
+.bt-azul div:hover {
+    background-image: url('/images/bt-azul-hover.gif');
+}
+
+.bt-cinza div {
+    background-image: url('/images/bt-cinza.gif');
+}
+
+.bt-cinza div:hover {
+    background-image: url('/images/bt-cinza-hover.gif');
+}
+
+.bt-padrao div {
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    height: 37px;
+    width: 170px;
+    text-decoration: none;
+}
+
+.bt-padrao div:hover {
+    text-decoration: none;
+}
+
+.botao-container {
+    width: 170px;
+    height: 37px;
+    text-decoration: none;
+    padding-bottom: 30px;
+    display: table-cell;
+    position: relative;
+}
+
+.botao-container a{
+    text-decoration: none;
+}
+
+.botoes-login {
+    position: relative;
+    padding-left: 120px;
+}
+
+.botoes-login .botao-container:last-child {
+    padding-left: 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }

@@ -16,7 +16,7 @@
 			</header>
 			<section class="section-padrao contato">
                 <p class="subtitulo sub-contato">Entre em contato com um de nossos consultores: </p>
-                <form class="form-contato">
+                <form class="form-padrao">
                     <label>Nome:</label><br>
                     <input type="text" id="nome"><br>
                     <label>E-mail:</label><br>
