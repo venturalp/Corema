@@ -530,7 +530,6 @@ h1{
 }
 
 .sect-como {
-    height: 400px;
     position: relative;
 }
 
@@ -538,7 +537,7 @@ h1{
 
 .desq-red {
     color: #F05E6A;
-    padding-left: 135px;
+    padding-left: 125px;
 }
 
 
@@ -549,4 +548,59 @@ h1{
 
 .align-h1-como h1{
     padding-top: 35px;
+}
+
+.box {
+    width:  245px;
+    height: 465px;
+    padding: 10px;
+    padding-left: 25px;
+    color: white;
+}
+
+.box p{
+    font-size: 15pt;
+}
+
+.box h2{
+    width: 190px;
+}
+
+.b-azul {
+    background-color: #00395C;
+}
+
+.b-red{
+    background-color: #AB1117;
+}
+
+
+
+.paddding-como {
+    padding-left: 200px;
+}
+
+
+
+.box-group {
+    padding-left: 45px;
+    width: 800px;
+}
+
+.box-space{
+    height: 45px;
+    width: 30px;
+}
+
+
+
+.circ-left {
+    position: relative;
+    margin-left: -50px;
+    border: 3px solid #FFF;
+    z-index: 100;
+}
+
+.dir-box {
+    margin-left: -56px;
 }
