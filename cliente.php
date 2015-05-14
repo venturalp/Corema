@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>Corema - Consultoria em Registro de Marcas</title>
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="prefixfree.min.js"></script>
