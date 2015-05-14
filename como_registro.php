@@ -14,7 +14,12 @@
 			<header>
                 <?php include("header.html"); ?>
 			</header>
-			<section class="section-padrao">
+			<section class="section-padrao sect-como">
+                <div class="align-h1-como">
+                    <div class="circulo circ-red1"><span class="icon icon-white">?</span></div>
+                    <h1 class="desq-red">COMO REGISTRO?</h1>
+                    <h2 class="desq-red">Confira os 4 passos para o registro da sua marca:</h2>
+                </div>
             </section>
             <?php include("pesquise_marca.html"); ?>
 			<?php include("footer.html"); ?>

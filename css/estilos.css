@@ -523,3 +523,30 @@ h1{
 .right {
     float: right;
 }
+
+.circ-red1 {
+    background-color: #F05E6A !important;
+    position: relative;
+}
+
+.sect-como {
+    height: 400px;
+    position: relative;
+}
+
+
+
+.desq-red {
+    color: #F05E6A;
+    padding-left: 135px;
+}
+
+
+
+.icon-white {
+    color: white !important;
+}
+
+.align-h1-como h1{
+    padding-top: 35px;
+}
