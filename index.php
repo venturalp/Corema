@@ -31,20 +31,23 @@
 			</section>
 			<section class="porque">
                 <div class="icon-group">
+                    <a href="porque-registrar.php">
                     <div>
                         <div class="circulo"><span class="icon">?</span></div>
                         <span class="desq">POR QUE<br>REGISTRAR?</span>
                     </div>
+                    </a>
+                    <a href="como_registro.php">
                     <div>
                         <div class="circulo cir-left"><span class="icon">?</span></div>
                         <span class="desq">COMO<br>REGISTRO?</span>
                     </div>
-                    <a href="como_registro.php">
+                    </a>
+
                     <div>
                         <div class="circulo cir-left"><span class="icon">!</span></div>
                         <span class="desq">QUERO<br>REGISTRAR!</span>
                     </div>
-                    </a>
                 </div>
 
 
