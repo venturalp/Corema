@@ -15,8 +15,8 @@
                 <?php include("header.html"); ?>
 			</header>
 			<section class="section-padrao">
+                <?php include("pesquise_marca.html"); ?>
             </section>
-            <?php include("pesquise_marca.html"); ?>
 			<?php include("footer.html"); ?>
 		</div>
 	</body>

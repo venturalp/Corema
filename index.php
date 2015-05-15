@@ -39,10 +39,12 @@
                         <div class="circulo cir-left"><span class="icon">?</span></div>
                         <span class="desq">COMO<br>REGISTRO?</span>
                     </div>
+                    <a href="como_registro.php">
                     <div>
                         <div class="circulo cir-left"><span class="icon">!</span></div>
                         <span class="desq">QUERO<br>REGISTRAR!</span>
                     </div>
+                    </a>
                 </div>
 
 

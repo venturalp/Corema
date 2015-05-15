@@ -22,20 +22,26 @@
                         <h2 class="desq-red">Confira os 4 passos para o registro da sua marca:</h2>
                     </div><br><br>
 
-                    <div class="box b-azul left">
+                    <article class="box b-azul left">
                         <h2>PESQUISE SUA MARCA CONOSCO</h2>
                         <p>No prazo máximo de 24 horas você receberá em seu e-mail um Login e Senha para visualizar o Resultado de Disponibilidade de Registro de sua Marca que será devidamente analisado e esclarecido por um de nossos consultores;</p>
-                    </div>
+                    </article>
                     <div class="circulo b-azul circ-left"><span class="icon icon-white">1º</span></div>
-                    <div class="box b-red left dir-box">
-                    </div>
+                    <article class="box b-red left dir-box">
+                        <h2>TENHA LIVRE ACESSO A ÁREA DO CLIENTE</h2>
+                        <p>Com o Login e Senha você poderá facilmente escolher qual de nossos planos melhor se encaixa em suas necessidades e seus interesses;</p>
+                    </article>
                     <div class="circulo b-red circ-left"><span class="icon icon-white">2º</span></div>
                     <div class="box-space clearfix"></div>
-                    <div class="box b-red left">
-                    </div>
+                    <article class="box b-red left">
+                        <h2>RECEBA SEU COMPROVANTE</h2>
+                        <p>Somente a COREMA - Consultoria em Registro de Marcas inicia seu processo de registro e entrega seu Protocolo de Marca em no máximo 48 horas após confirmação de pagamento;</p>
+                    </article>
                     <div class="circulo b-red circ-left"><span class="icon icon-white">3º</span></div>
-                    <div class="box b-azul left dir-box">
-                    </div>
+                    <article class="box b-azul left dir-box">
+                        <h2>TENHA ACESSO AO SEU PROCESSO DE REGISTRO</h2>
+                        <p>Isso mesmo! Conosco você terá acesso ILIMITADO ao seu processo de registro;</p>
+                    </article>
                     <div class="circulo b-azul circ-left"><span class="icon icon-white">4º</span></div>
                 </div>
                 <div class="box-space clearfix"></div>

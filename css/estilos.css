@@ -210,6 +210,11 @@ footer div{
     padding-bottom: 10px;
 }
 
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+
 .icons-nav {
     margin-top: 40px;
     margin-left: -200px;
@@ -385,7 +390,7 @@ h1{
 }
 
 .pesquise div {
-    background-image: url('/corema/images/bt-pesquise.gif');
+    background-image: url('/images/bt-pesquise.gif');
     position:relative;
     margin: 0px;
     padding: 0px;
@@ -393,8 +398,21 @@ h1{
     width: 170px;
 }
 
+.down-ebook-container div {
+    background-image: url('/images/bt-download.gif');
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    height: 59px;
+    width: 264px;
+}
+
 .pesquise div:hover {
-    background-image: url('/corema/images/bt-pesquise-hover.gif');
+    background-image: url('/images/bt-pesquise-hover.gif');
+}
+
+.down-ebook-container div:hover {
+    background-image: url('/images/bt-download-hover.gif');
 }
 
 .pesquise-container {
@@ -405,6 +423,16 @@ h1{
     width: 170px;
     padding-bottom: 30px;
     margin-left: 230px;
+}
+
+.down-ebook-container {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+    -webkit-align-content: space-around; /* Safari 7.0+ */
+    display: flex;
+    width: 264px;
+    padding-bottom: 30px;
+    margin-left: 180px;
 }
 
 .pesquise{
@@ -418,6 +446,14 @@ h1{
     line-height: 100%;
     text-align: center;
     padding-top: 12px;
+}
+
+.botao-maior{
+    font-size: 16pt !important;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 10px !important;
+    width: 180px !important;
 }
 .pesquise p{
     width: 80px;
@@ -466,19 +502,19 @@ h1{
 }
 
 .bt-azul div {
-    background-image: url('/corema/images/bt-azul.gif');
+    background-image: url('/images/bt-azul.gif');
 }
 
 .bt-azul div:hover {
-    background-image: url('/corema/images/bt-azul-hover.gif');
+    background-image: url('/images/bt-azul-hover.gif');
 }
 
 .bt-cinza div {
-    background-image: url('/corema/images/bt-cinza.gif');
+    background-image: url('/images/bt-cinza.gif');
 }
 
 .bt-cinza div:hover {
-    background-image: url('/corema/images/bt-cinza-hover.gif');
+    background-image: url('/images/bt-cinza-hover.gif');
 }
 
 .bt-padrao div {
@@ -550,6 +586,17 @@ h1{
     padding-top: 35px;
 }
 
+.align-h1-porque h1{
+    top: 50px;
+    width: 574;
+    position: relative;
+    padding-bottom: 125px;
+}
+
+.align-h1-porque{
+    width: 574;
+}
+
 .box {
     width:  245px;
     height: 465px;
@@ -559,11 +606,15 @@ h1{
 }
 
 .box p{
-    font-size: 15pt;
+    font-size: 16pt;
+    font-style: italic;
+    padding-top: 20px;
+    width: 210px;
 }
 
 .box h2{
-    width: 190px;
+    width: 220px;
+    font-size: 19pt;
 }
 
 .b-azul {
@@ -603,4 +654,84 @@ h1{
 
 .dir-box {
     margin-left: -56px;
+}
+
+.dir-box h2{
+    margin-left: 35px;
+    width: 190px;
+}
+
+.dir-box p{
+    padding-top: 0px !important;
+    margin-top: -10px;
+}
+
+.img-info {
+    padding-left: 250px;
+    float: right
+}
+
+.subtitulo-content {
+    color: #AB0617;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 1.3em;
+}
+
+.informativo h3 {
+    margin-top: 85px;
+}
+
+
+
+.informativo-content p{
+    color: #858585;
+    padding-bottom: 15px;
+}
+
+.informativo-content {
+    width: 580px;
+}
+
+.destaque-ebook {
+    color:#00385A;
+    font-size: 1.9em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.destaque-ebook a{
+    color:#F05E6A;
+}
+
+.porque-reg {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.porque-reg ul{
+    list-style: none;
+    margin-left: -40px;
+    color: #858585;
+    line-height: 180%;
+}
+
+.porque-reg img{
+    margin-top: 5px;
+    position: relative;
+    display: inline;
+}
+
+.porque-reg article{
+    width: 574px;
+    margin-left: 38px;
+}
+
+.pesq-marca h1{
+    padding-bottom: 60px;
+    padding-left: 70px;
+}
+
+.bt-enviar {
+    padding-left: 230px !important;
 }
