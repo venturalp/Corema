@@ -27,7 +27,7 @@
 
                 jQuery.ajax({
                     type: "POST",
-                    url: "contato_send.php",
+                    url: "corema_ajax.php",
                     data: dados,
                     success: function( data )
                     {
