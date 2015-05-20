@@ -10,34 +10,35 @@
         <script src="jquery-2.1.3.min.js" type="text/javascript"></script>
 
         <script type="text/javascript">
-        $(document).ready(function(){
+            $(document).ready(function(){
 
-            $('#enviar').click(function(){
-                $("#ajax_form").submit();
-            });
-
-
-            jQuery('#ajax_form').submit(function(){
-
-                var dados = {
-                    name: $("#nome").val(),
-                    email: $("#email").val(),
-                    message: $("#mensagem").val()
-                };
-
-                jQuery.ajax({
-                    type: "POST",
-                    url: "corema_ajax.php",
-                    data: dados,
-                    success: function( data )
-                    {
-                        alert( data );
-                    }
-
+                $('#enviar').click(function(){
+                    $("#ajax_form").submit();
                 });
-            });
 
-        });
+
+                jQuery('#ajax_form').submit(function(){
+
+                    var dados = {
+                        op: "contato",
+                        name: $("#nome").val(),
+                        email: $("#email").val(),
+                        message: $("#mensagem").val()
+                    };
+
+                    jQuery.ajax({
+                        type: "POST",
+                        url: "corema_ajax.php",
+                        data: dados,
+                        success: function( data )
+                        {
+                            alert( data );
+                        }
+
+                    });
+                });
+
+            });
         </script>
 
 	</head>
