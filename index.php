@@ -12,11 +12,12 @@
             $(document).ready(function(){
 
                 $('#enviar').click(function(){
+
                     $("#ajax_form").submit();
                 });
 
                 jQuery('#ajax_form').submit(function(){
-                    $("#alerta p").text("Seu email está sendo enviado!");
+                    $("#alerta").text("Seu email está sendo enviado!");
                     $("#alerta, #overlay").show();
                     var dados = {
                         op: "pesquisa-marca",
@@ -34,7 +35,7 @@
                         {
                             $("#overlay").hide();
                             $("#alerta").text(data);
-                            $( "#alerta" ).fadeOut( 1200 );
+                            $( "#alerta" ).fadeOut( 2600 );
                         }
 
                     });
@@ -53,7 +54,7 @@
 				<form class="formulario clearfix" id="ajax_form" method="post" onsubmit="return false;">
 					<h2>Pesquise sua marca</h2>
 					<label>Nome completo:</label><br>
-					<input type="text" id="nome"><br>
+					<input type="text" id="nome" class="msg_erro"><br>
                     <label>E-mail:</label><br>
 					<input type="text" id="email"><br>
                     <label>Marca que deseja registrar:</label><br>

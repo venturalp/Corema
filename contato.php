@@ -18,7 +18,8 @@
 
 
                 jQuery('#ajax_form').submit(function(){
-
+                    $("#alerta").text("Seu email está sendo enviado!");
+                    $("#alerta, #overlay").show();
                     var dados = {
                         op: "contato",
                         name: $("#nome").val(),
@@ -32,7 +33,9 @@
                         data: dados,
                         success: function( data )
                         {
-                            alert( data );
+                            $("#overlay").hide();
+                            $("#alerta").text(data);
+                            $( "#alerta" ).fadeOut( 2600 );
                         }
 
                     });

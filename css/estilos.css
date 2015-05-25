@@ -742,6 +742,7 @@ h1{
     border-radius: 7px;
     height: 130px;
     padding: 10px;
+    padding-top: 120px;
     width: 300px;
     position: fixed;
     top: 50%;
@@ -750,13 +751,9 @@ h1{
     margin-top: -65px;
     z-index: 2;
     display: none;
+    text-align: center;
 }
 
-.alerta p{
-    text-align: center;
-    top: auto;
-    height: auto;
-}
 
 .overlay {
     position: fixed;
@@ -767,4 +764,17 @@ h1{
     height: 100%;
     z-index: 1;
     display: none;
+}
+
+.validate-false{
+    border-color: red;
+}
+
+.msg_erro::after {
+    background-color: lightcoral;
+    border: 1px solid red;
+    color: black;
+    content: "mensagem erro";
+    position: absolute;
+    float: right;
 }
