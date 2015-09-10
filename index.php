@@ -89,11 +89,11 @@
                 <div>
                     <img src="images/mouse_ebook.png"/>
                     <p>
-                        <strong>Saiba detalhadamente como registrar <br>sua marca, fazendo o </strong><a href="files/lei_n_9279.pdf">download gratuito<br> do nosso E-book.</a>
+                        <strong>Saiba detalhadamente como registrar <br>sua marca, fazendo o </strong><a href="files/ebook_corema.docx">download gratuito<br> do nosso E-book.</a>
                     </p>
                 </div>
                 <div class="ebook-bottom">
-                    Lei nº 9.279 de 14 de Maio de 1996 - Regula direitos e obrigações relativos à propriedade industrial.
+                    <a href="files/lei_n_9279.pdf">Lei nº 9.279 de 14 de Maio de 1996 - Regula direitos e obrigações relativos à propriedade industrial.</a>
                 </div>
             </section>
 			<div class="profissionais">

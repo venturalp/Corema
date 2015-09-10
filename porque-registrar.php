@@ -22,9 +22,14 @@
                                 <h1 class="desq-red">POR QUE REGISTRAR?</h1>
                         </div>
                     </header>
-                    <img src="images/ilustra1.jpg"/>
-                    <img src="images/ilustra2.jpg"/>
-                    <img src="images/ilustra3.jpg"/>
+                    <img src="images/1.jpg"/>
+                    <img src="images/2.jpg"/>
+                    <img src="images/3.jpg"/>
+                    <img src="images/4.jpg"/>
+                    <img src="images/5.jpg"/>
+                    <img src="images/6.jpg"/>
+                    <img src="images/7.jpg"/>
+                    <img src="images/8.jpg"/>
                     <br><br>
                     <h3 class="subtitulo-content clearfix">Algumas Vantagens do Registro de Marca:</h3>
 
