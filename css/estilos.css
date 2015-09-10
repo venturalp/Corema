@@ -97,8 +97,8 @@ nav a:hover{
 
 .destaque{
 	background-image: url("../images/destaque.jpg");
-	height: 390px;
-	padding-left: 52%;
+	height: 700px;
+	padding-left: 56%;
     padding-top: 2%;
 }
 
@@ -115,6 +115,11 @@ nav a:hover{
     top: -12px;
     left: 45px;
     position: relative;
+}
+
+.destaque strong{
+    font-size: 22pt;
+    font-weight: 2500;
 }
 
 .destaque input[type="text"]{
@@ -165,22 +170,47 @@ nav a:hover{
 }
 
 .porque{
-	height: 550px;
+	height: 140px;
 	width: 960px;
-	background-color: #F05E6A;
+	background-color: #ab0917;
 	margin: 0 auto;
 	position: relative;
     padding-top: 30px;
 }
 
+.ebook{
+	height: 300px;
+	width: 960px;
+	background-color: #f05e6a;
+	margin: 0 auto;
+	position: relative;
+    padding-top: 30px;
+}
+
+.ebook div{
+    display: flex;
+    margin-left: 150px;
+    font-family: Myriad, sans-serif;
+    color: #003859;
+    font-size: 28px;
+    font-weight: 1800;
+    margin-top: 20px;
+}
+
+
+.ebook a{
+    color: white;
+    text-decoration: underline;
+}
+
 .profissionais{
 	display: table;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 20px;
 	width: 960px;
 	background-color: #00385C;
     color: white;
-    margin-bottom: 0px;
+    margin-bottom: -25px;
 }
 
 .profissionais div{
@@ -278,7 +308,7 @@ iframe {
 }
 
 .icon{
-    color: #F05E6A;
+    color: #ab0917;
     text-align: center;
     font-size: 60pt;
     font-weight: bolder;
@@ -777,4 +807,18 @@ h1{
     content: "mensagem erro";
     position: absolute;
     float: right;
+}
+
+
+
+
+
+.ebook-bottom {
+    font-size: 18px !important;
+    text-align: center;
+    color: white !important;
+    text-decoration: underline;
+    font-weight: bold !important;
+    margin-left: 110px !important;
+    margin-top: 30px !important;
 }
