@@ -20,8 +20,14 @@ nav{
 	padding-left: 100px;
 	padding-top: 22px;
     margin: 0 auto;
+    margin-top: 0px;
     display: block;
     height: 76px;
+/*    position: fixed;*/
+}
+
+header {
+    height: 110px;
 }
 
 nav img{
@@ -56,7 +62,12 @@ nav a:hover{
 	color: #F05E6A;
 }
 
-
+.margin-nav{
+    height: 176px;
+    margin-top: 176px;
+    clear: both;
+    position: absolute;
+}
 
 .clearfix {
     clear: both;
@@ -100,6 +111,8 @@ nav a:hover{
 	height: 700px;
 	padding-left: 56%;
     padding-top: 2%;
+    margin-top: 25px;
+
 }
 
 .destaque form{
@@ -824,4 +837,11 @@ h1{
     font-weight: bold !important;
     margin-left: 110px !important;
     margin-top: 30px !important;
+}
+
+.fixed-nav {
+    position: fixed;
+    width: 960px;
+    margin-bottom: 176px !important;
+    z-index: 999;
 }
