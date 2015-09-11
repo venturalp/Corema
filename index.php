@@ -50,19 +50,21 @@
                 <?php include("header.html"); ?>
 			</header>
 			<section class="destaque">
-                <div class="suamarca">Sua marca em evidência!<br><strong>REGISTRE SUA MARCA.</strong></div>
-				<form class="formulario clearfix" id="ajax_form" method="post" onsubmit="return false;">
-					<h2>Pesquise sua marca</h2>
-					<label>Nome completo:</label><br>
-					<input type="text" id="nome" class="msg_erro"><br>
-                    <label>E-mail:</label><br>
-					<input type="text" id="email"><br>
-                    <label>Marca que deseja registrar:</label><br>
-					<input type="text" id="marca"><br>
-                    <label>Ramo de atividade:</label><br>
-					<input type="text" id="ramo"><br>
-					<input type="submit" value="Enviar">
-				</form>
+                <div class="destaque-container">
+                    <div class="suamarca">Sua marca em evidência!<br><strong>REGISTRE SUA MARCA.</strong></div>
+                    <form class="formulario clearfix" id="ajax_form" method="post" onsubmit="return false;">
+                        <h2>Pesquise sua marca</h2>
+                        <label>Nome completo:</label><br>
+                        <input type="text" id="nome" class="msg_erro"><br>
+                        <label>E-mail:</label><br>
+                        <input type="text" id="email"><br>
+                        <label>Marca que deseja registrar:</label><br>
+                        <input type="text" id="marca"><br>
+                        <label>Ramo de atividade:</label><br>
+                        <input type="text" id="ramo"><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
 			</section>
 			<section class="porque">
                 <div class="icon-group">
@@ -84,7 +86,11 @@
                         <span class="desq">QUERO<br>REGISTRAR!</span>
                     </div>
                 </div>
+
 			</section>
+            <div class="conheca">
+                <a href="nossos_planos.php"><button type="button" name="" value="" class="cinza">Conheça nossos planos!</button></a>
+            </div>
             <section class="ebook">
                 <div>
                     <img src="images/mouse_ebook.png"/>

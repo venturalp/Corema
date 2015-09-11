@@ -51,20 +51,23 @@
                 <?php include("header.html"); ?>
 			</header>
 			<section class="section-padrao contato">
-                <p class="subtitulo sub-contato">Entre em contato com um de nossos consultores: </p>
-                <form class="form-padrao" id="ajax_form" method="post" onsubmit="return false;">
-                    <label>Nome:</label><br>
-                    <input type="text" name="nome" id="nome"><br>
-                    <label>E-mail:</label><br>
-                    <input type="text" name="email" id="email"/><br>
-                    <label>Mensagem:</label><br>
-                    <textarea name="mensagem" id="mensagem"></textarea>
-                </form>
-                <div class="botao-container bt-enviar" id="enviar">
-                    <a href="#" class="bt-padrao bt-azul"><div><p class="botao">ENVIAR</p></div></a>
+                <div class="contato-container">
+                    <p class="subtitulo sub-contato">Entre em contato com um de nossos consultores: </p>
+                    <form class="form-padrao" id="ajax_form" method="post" onsubmit="return false;">
+                        <label>Nome:</label><br>
+                        <input type="text" name="nome" id="nome"><br>
+                        <label>E-mail:</label><br>
+                        <input type="text" name="email" id="email"/><br>
+                        <label>Mensagem:</label><br>
+                        <textarea name="mensagem" id="mensagem"></textarea>
+                    </form>
+                    <div class="botao-container bt-enviar" id="enviar">
+                        <a href="#" class="bt-padrao bt-azul"><div><p class="botao">ENVIAR</p></div></a>
+                    </div>
                 </div>
                 <?php include("pesquise_marca.html"); ?>
             </section>
+
 			<?php include("footer.html"); ?>
 		</div>
 	</body>
