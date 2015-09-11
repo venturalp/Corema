@@ -868,24 +868,24 @@ h1{
 button.cinza {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	color: #00395c;
+	color: #FFF;
 	padding: 10px 20px;
 	background: -moz-linear-gradient(
 		top,
-		#ffffff 0%,
-		#ebebeb 50%,
-		#dbdbdb 50%,
-		#b5b5b5);
+		#0068A9 0%,
+		#00598F 50%,
+		#004976 50%,
+		#00395c);
 	background: -webkit-gradient(
 		linear, left top, left bottom,
-		from(#ffffff),
-		color-stop(0.50, #ebebeb),
-		color-stop(0.50, #dbdbdb),
-		to(#b5b5b5));
+		from(#0068A9),
+		color-stop(0.50, #00598F),
+		color-stop(0.50, #004976),
+		to(#00395c));
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	border: 1px solid #949494;
+	border: 1px solid #00395c;
 	-moz-box-shadow:
 		0px 1px 3px rgba(000,000,000,0.5),
 		inset 0px 0px 2px rgba(255,255,255,1);
@@ -894,10 +894,7 @@ button.cinza {
 		inset 0px 0px 2px rgba(255,255,255,1);
 	box-shadow:
 		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 2px rgba(255,255,255,1);
-	text-shadow:
-		0px -1px 0px rgba(45,149,214,0.2),
-		0px 1px 0px rgba(255,255,255,1);
+		inset 0px 0px 2px rgba(0,255,255,1);
 }
 
 .conheca {

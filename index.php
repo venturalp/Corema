@@ -68,7 +68,7 @@
 			</section>
 			<section class="porque">
                 <div class="icon-group">
-                    <a href="porque-registrar.php">
+                    <a href="informativo.php">
                     <div>
                         <div class="circulo"><span class="icon">?</span></div>
                         <span class="desq">POR QUE<br>REGISTRAR?</span>
