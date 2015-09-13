@@ -29,12 +29,15 @@
     <p>Consumidores satisfeitos com um determinado produto ou serviço voltam a comprá-lo ou usá-lo. Para que isso seja possível, é necessário que eles sejam capazes de diferenciar produtos e serviços idênticos e semelhantes da concorrência. Sendo assim, a função essencial da marca nas estratégias comerciais e publicitárias das empresas é facilitar ao consumidor a sua identificação e diferenciação do produto ou serviço desejado.</p></article>
                     <p class="destaque-ebook">
                         Saiba detalhadamente como registrar sua marca,
-    clicando em <a href="#">Download gratuito do E-Book.</a>
+    clicando em <a href="files/ebook_corema.pdf">Download gratuito do E-Book.</a>
                     </p>
-                    <div class="down-ebook-container clearfix">
-                        <a href="#" class="pesquise"><div><p class="botao botao-maior">Download
-    gratuito do E-Book</p></div></a>
-                    </div>
+                </div>
+                <div class="down-ebook-container">
+                    <a href="files/ebook_corema.pdf" class="pesquise">
+                        <div>
+                            <p class="botao botao-maior">Download gratuito do E-Book</p>
+                        </div>
+                    </a>
                 </div>
                 <?php include("pesquise_marca.html"); ?>
             </section>

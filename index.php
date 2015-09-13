@@ -36,6 +36,12 @@
                             $("#overlay").hide();
                             $("#alerta").text(data);
                             $( "#alerta" ).fadeOut( 2600 );
+                        },
+                        fail: function (data)
+                        {
+                            $("#overlay").hide();
+                            $("#alerta").text(data);
+                            $( "#alerta" ).fadeOut( 2600 );
                         }
 
                     });
@@ -89,18 +95,22 @@
 
 			</section>
             <div class="conheca">
-                <a href="nossos_planos.php"><button type="button" name="" value="" class="cinza">Conheça nossos planos!</button></a>
+                <div style="width:200px; margin: 0 auto;">
+                    <a href="nossos_planos.php"><button type="button" name="" value="" class="blue">Conheça nossos planos!</button></a>
+                </div>
             </div>
             <section class="ebook">
-                <div>
-                    <img src="images/mouse_ebook.png"/>
-                    <p>
-                        <strong>Saiba detalhadamente como registrar <br>sua marca, fazendo o </strong><a href="files/ebook_corema.docx">download gratuito<br> do nosso E-book.</a>
-                    </p>
-                </div>
-                <div class="ebook-bottom">
-                    <a href="files/lei_n_9279.pdf">Lei nº 9.279 de 14 de Maio de 1996 - Regula direitos e obrigações relativos à propriedade industrial.</a>
-                </div>
+                <div class="ebook-container">
+                    <div>
+                        <img src="images/mouse_ebook.png"/>
+                        <p>
+                            <strong>Saiba detalhadamente como registrar <br>sua marca, fazendo o </strong><a href="files/ebook_corema.pdf">download gratuito<br> do nosso E-book.</a>
+                        </p>
+                    </div>
+                </div><br>
+                <a href="files/lei_n_9279.pdf">
+                            Lei nº 9.279 de 14 de Maio de 1996 - Regula direitos e obrigações relativos à propriedade industrial.
+                </a>
             </section>
 			<div class="profissionais">
 				<div>Contamos com profissionais especializados e competentes para atender<br>sua empresa e levar as soluções que você realmente precisa!</div>

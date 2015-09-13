@@ -10,16 +10,17 @@
 
 body
 {
-	margin: 0;
     font-family: Myriad, sans-serif;
+    margin: 0 auto;
+    background-color: #F5F0EC;
 }
 
 nav{
     vertical-align: middle;
     background-color:#F5F0EC;
-	padding-left: 100px;
+/*	padding-left: 100px;*/
 	padding-top: 22px;
-    margin: 0 auto;
+/*    margin: 0 auto;*/
     margin-top: 0px;
     display: block;
     height: 76px;
@@ -74,25 +75,25 @@ nav a:hover{
 }
 
 .contatos {
+    display: block;
     float: right;
     position: relative;
-    margin-right: 6%;
     top: -52px;
 }
 
 .contatos span {
     position: relative;
     top: -8px;
-    margin-left: 5px;
 }
 
 .container{
-	margin: 0 auto;
+/*	width: 960px;*/
+    background-color:  #F5F0EC;
+    min-height: 100%;
+    position: relative;
 }
 
-.container section{
-/*    margin-left: 25%;*/
-}
+
 
 .linha {
     position: relative;
@@ -113,10 +114,11 @@ nav a:hover{
 	background-image: url("../images/destaque.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #FFF !important;
 	height: 405px;
+    padding-top: 50px;
 /*	padding-left: 56%;*/
-    padding-top: 2%;
-    margin-top: 25px;
+    margin-bottom: -2px;
 }
 
 .destaque form{
@@ -130,7 +132,8 @@ nav a:hover{
 	line-height: 1.4;
 	padding: 20px;
     top: -12px;
-    left: 520px;
+    float: left;
+    margin-left: 60%;
     position: relative;
     -webkit-box-shadow: 9px 11px 17px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 9px 11px 17px -8px rgba(0,0,0,0.75);
@@ -141,6 +144,8 @@ nav a:hover{
     font-size: 22pt;
     font-weight: 2500;
 }
+
+html, body {height:100%;}
 
 .destaque input[type="text"]{
 	background-color: #EEEEEE;
@@ -182,7 +187,7 @@ nav a:hover{
 	font-family: Myriad, sans-serif;
 	font-size: 20pt;
     top: -30px;
-    left: 480px;
+    margin-left: 58.7%;
     position: relative;
 }
 
@@ -197,42 +202,47 @@ nav a:hover{
 	background-color: #ab0917;
 	position: relative;
     padding-top: 30px;
-    display: grid;
+    display: block;
+    position: relative;
 }
 
 .ebook{
 	height: 300px;
 	background-color: #f05e6a;
-	margin: 0 auto;
 	position: relative;
-    padding-top: 30px;
-    padding-left: 26%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ebook a{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-family: Myriad, sans-serif;
+    font-weight: bolder;
 }
 
 .ebook div{
     display: flex;
-    margin-left: 150px;
     font-family: Myriad, sans-serif;
     color: #003859;
-    font-size: 28px;
+    font-size: 28px !important;
     font-weight: 1800;
     margin-top: 20px;
 }
 
 
-.ebook a{
-    color: white;
-    text-decoration: underline;
-}
+
 
 .profissionais{
-	display: table;
-    padding-top: 30px;
-    padding-bottom: 20px;
+	display: block;
+    position: relative;
+    padding: 25px 0 10px 0;
+    height: 120px;
 	width: 100%;
 	background-color: #00385C;
     color: white;
-    margin-bottom: -25px;
+/*    margin-bottom: -25px;*/
 }
 
 .profissionais div{
@@ -241,14 +251,19 @@ nav a:hover{
 	font-family: Myriad, sans-serif;
 	text-align: center;
 	font-weight: bold;
-	display: table-cell;
+	display: block;
 	vertical-align: middle;
 }
 
 footer{
-	height: 100%;
+
 	width: 100%;
 	background-color: #00385C;
+    display: block;
+    position: absolute;
+    vertical-align: bottom;
+    padding: 10px 0 10px 0;
+    bottom: 0;
     clear: both;
 }
 
@@ -258,9 +273,13 @@ footer div{
 	font-family: Myriad, sans-serif;
 	text-align: center;
 	position:relative;
+    display: block;
     line-height: 160%;
+/*
     padding-top: 20px;
     padding-bottom: 10px;
+*/
+
 }
 
 footer div a{
@@ -355,16 +374,17 @@ iframe {
 
 
 .icon-group {
-    width: 960px;
-    position: relative;
-    margin-left: 32%;
+    position: inherit;
+    display: block;
+    width: 725px;
+    margin: 0 auto;
 }
 
 .section-padrao {
     background-color: #F5F0EC;
     position: relative;
-    padding-top: 30px;
-    padding-right: 155px;
+    margin-top: 50px;
+    display: inline;
 }
 
 h1{
@@ -378,6 +398,7 @@ h1{
 
 .empresa h1{
     margin-bottom: 50px !important;
+    float: left;
 }
 
 .subtitulo{
@@ -387,6 +408,8 @@ h1{
 
 .duvidas{
     padding-bottom: 30px;
+    top: 25px;
+    margin: 0 auto;
 }
 
 .duvidas article p{
@@ -410,9 +433,11 @@ h1{
 }
 
 .empresa{
-    width: 650px;
-    margin-left: 40%;
+    background-color: #F5F0EC;
+    width: 670px;
+    margin: 0 auto;
     margin-bottom: 0;
+    margin-top: 30px;
 }
 
 .empresa-div{
@@ -424,6 +449,7 @@ h1{
     width: 500px;
     color: #858585;
     font-style: italic;
+    float: left;
 }
 
 .empresa p:first-child{
@@ -438,11 +464,8 @@ h1{
 
 .borda-empresa {
     float: right;
-    display: inline;
-    clear: both;
-    position: absolute;
-    top: 58px;
-    left: 62%;
+    position: inherit;
+    margin-top: 80px;
 }
 
 .pesquise div {
@@ -475,24 +498,28 @@ h1{
     display: -webkit-flex; /* Safari */
     -webkit-flex-flow: row wrap; /* Safari 6.1+ */
     -webkit-align-content: space-around; /* Safari 7.0+ */
-    display: flex;
-    width: 170px;
+    display: block;
+    position: relative;
     padding-bottom: 30px;
-    margin-left: 50%;
+    margin: 0 auto;
+    width: 170px;
+    height: 120px;
 }
 
 .down-ebook-container {
     display: -webkit-flex; /* Safari */
     -webkit-flex-flow: row wrap; /* Safari 6.1+ */
     -webkit-align-content: space-around; /* Safari 7.0+ */
-    display: flex;
+    display: block;
     width: 264px;
     padding-bottom: 30px;
-    margin-left: 180px;
+    margin: 0 auto;
 }
 
 .pesquise{
     text-decoration: none;
+    width:  170px;
+    margin: 0 auto;
 }
 
 .botao{
@@ -536,7 +563,7 @@ h1{
 }
 
 .form-padrao{
-    padding-left: 75px;
+/*    padding-left: 75px;*/
 }
 
 .form-padrao label{
@@ -550,12 +577,11 @@ h1{
 
 .cliente {
     position: relative;
-    padding-left: 35%;
+    background-color: #F5F0EC !important;
 }
 
 .cliente h1{
     margin-bottom: 30px;
-    padding-left: 70px;
 }
 
 .bt-azul div {
@@ -590,9 +616,11 @@ h1{
 .botao-container {
     width: 170px;
     height: 37px;
+    margin: 0 auto;
     text-decoration: none;
     padding-bottom: 30px;
-    display: table-cell;
+    display: block;
+    float: left;
     position: relative;
 }
 
@@ -602,7 +630,9 @@ h1{
 
 .botoes-login {
     position: relative;
-    padding-left: 120px;
+    margin: 0 auto;
+    width: 370px;
+    display: table;
 }
 
 .botoes-login .botao-container:last-child {
@@ -660,6 +690,7 @@ h1{
     padding: 10px;
     padding-left: 25px;
     color: white;
+    margin-left: 35px;
 }
 
 .box p{
@@ -691,9 +722,8 @@ h1{
 
 
 .box-group {
-    padding-left: 45px;
-    width: 800px;
-    margin-left: 36%;
+    margin: 0 auto;
+    width: 652px;
 }
 
 .box-space{
@@ -791,11 +821,13 @@ h1{
 
 .pesq-marca h1{
     padding-bottom: 60px;
-    padding-left: 70px;
+
 }
 
 .bt-enviar {
-    padding-left: 230px !important;
+    width: 170px;
+    float: none !important;
+    height: 120px;
 }
 
 .alerta {
@@ -851,7 +883,6 @@ h1{
     color: white !important;
     text-decoration: underline;
     font-weight: bold !important;
-    margin-left: 110px !important;
     margin-top: 30px !important;
 }
 
@@ -865,7 +896,7 @@ h1{
 }
 
 
-button.cinza {
+button.blue {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #FFF;
@@ -901,31 +932,58 @@ button.cinza {
 	background-color: #ab0917;
     padding-bottom: 30px;
     position: relative;
-
+    margin: 0 auto;
 }
 
 .conheca button{
-    margin-left: 45%;
+
 }
 
 .destaque-container {
-    margin-left: 30%;
+    margin: 0 auto;
 }
 
 .duvida-container {
-    width: 800px;
-    padding-left: 34%;
+    width: 740px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .duvida-container img{
-    margin-left: 50px;
+/*    margin-left: 50px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .informativo-container {
-    margin-left: 37%;
+    margin: 0 auto;
+    padding-top: 30px;
     width: 650px;
 }
 
 .contato-container {
     margin-left: 37%;
+}
+
+.ebook-container {
+    width: 690px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.cliente-container {
+    width: 472px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.pesq-marca {
+    width: 472px;
+    margin: 0 auto;
+}
+
+.pesq-marca-container {
+    width: 475px; margin: 0 auto;
+    padding-top: 30px;
 }

@@ -16,9 +16,11 @@
 			</header>
 			<section class="section-padrao duvidas">
                 <div class="duvida-container">
-                    <h1>DÚVIDAS</h1>
-                    <p class="subtitulo">Saiba quais são as mais comuns na hora de registrar a sua marca</p>
-                    <img src="images/duvidas.jpg"/>
+                    <div style="width:650px; margin: 0 auto;">
+                        <h1>DÚVIDAS</h1>
+                        <p class="subtitulo">Saiba quais são as mais comuns na hora de registrar a sua marca</p>
+                        <img src="images/duvidas.jpg"/>
+                    </div>
                     <article>
                         <h2>1. Porque devo registrar minha marca?</h2>
                         <p>R: Porque SOMENTE o registro concedido através do Órgão Federal INPI – Instituto Nacional da Propriedade Industrial tem poderes legais para garantir a exclusividade da marca ao seu proprietário.</p>
@@ -47,8 +49,9 @@
                         <p>R: Ela obrigatoriamente passa a ser respeita em todo território brasileiro e somente você poderá lucrar com os produtos ou serviços oferecidos através daquele nome comercial. Registrando sua marca você adquire o direito de utilizá-la com exclusividade em sua área de atuação.</p>
                     </article>
                 </div>
-                <?php include("pesquise_marca.html"); ?>
 			</section>
+            <?php include("pesquise_marca.html"); ?>
+            <div class="clearfix"></div>
 			<?php include("footer.html"); ?>
 		</div>
 	</body>

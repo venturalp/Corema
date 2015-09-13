@@ -52,21 +52,24 @@
                 <?php include("header.html"); ?>
 			</header>
 			<section class="section-padrao pesq-marca">
-                <h1>PESQUISE SUA MARCA</h1>
-                <form class="form-padrao" id="ajax_form" method="post" onsubmit="return false;">
-                    <label>Nome completo:</label><br>
-                    <input type="text" id="nome"><br>
-                    <label>E-mail:</label><br>
-                    <input type="text" id="email"/><br>
-                    <label>Marca que deseja registrar:</label><br>
-                    <input type="text" id="marca"/><br>
-                    <label>Ramo de atividade:</label><br>
-                    <input type="text" id="ramo"/><br>
-                </form>
+                <div class="pesq-marca-container">
+                    <h1>PESQUISE SUA MARCA</h1>
+                    <form class="form-padrao" id="ajax_form" method="post" onsubmit="return false;">
+                        <label>Nome completo:</label><br>
+                        <input type="text" id="nome"><br>
+                        <label>E-mail:</label><br>
+                        <input type="text" id="email"/><br>
+                        <label>Marca que deseja registrar:</label><br>
+                        <input type="text" id="marca"/><br>
+                        <label>Ramo de atividade:</label><br>
+                        <input type="text" id="ramo"/><br>
+                    </form>
+                </div>
                 <div class="botao-container bt-enviar" id="enviar">
-                    <a href="#" class="bt-padrao bt-azul"><div><p class="botao">ENVIAR</p></div></a>
+                    <a href="#" class="bt-padrao bt-azul"><div ><p class="botao">ENVIAR</p></div></a>
                 </div>
             </section>
+
 			<?php include("footer.html"); ?>
 		</div>
 	</body>
