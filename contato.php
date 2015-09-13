@@ -36,6 +36,7 @@
                             $("#overlay").hide();
                             $("#alerta").text(data);
                             $( "#alerta" ).fadeOut( 2600 );
+                            $("#ajax_form")[0].reset();
                         }
 
                     });

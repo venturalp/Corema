@@ -21,11 +21,11 @@
                     $("#alerta").text("Seu email está sendo enviado!");
                     $("#alerta, #overlay").show();
                     var dados = {
-                        op: "pesquisa-marca",
+                        op: "orcamento",
                         name: $("#nome").val(),
                         email: $("#email").val(),
-                        marca: $("#marca").val(),
-                        ramo: $("#ramo").val()
+                        message: $("#mensagem").val(),
+                        subjetc: $("#plano option:selected").text()
                     };
 
                     jQuery.ajax({
@@ -45,32 +45,38 @@
 
             });
         </script>
-
 	</head>
 	<body>
 		<div class="container">
 			<header>
                 <?php include("header.html"); ?>
 			</header>
-			<section class="section-padrao pesq-marca">
-                <div class="pesq-marca-container">
-                    <h1>PESQUISE SUA MARCA</h1>
+			<section class="section-padrao contato">
+                <div class="contato-container">
+                    <p class="subtitulo sub-contato">Solicite um orçamento: </p>
                     <form class="form-padrao" id="ajax_form" method="post" onsubmit="return false;">
-                        <label>Nome completo:</label><br>
-                        <input type="text" id="nome"><br>
+                        <label>Nome:</label><br>
+                        <input type="text" name="nome" id="nome"><br>
                         <label>E-mail:</label><br>
-                        <input type="text" id="email"/><br>
-                        <label>Marca que deseja registrar:</label><br>
-                        <input type="text" id="marca"/><br>
-                        <label>Ramo de atividade:</label><br>
-                        <input type="text" id="ramo"/><br>
+                        <input type="text" name="email" id="email"/><br>
+                        <label>Plano:</label><br>
+                        <select id="plano">
+                             <?php
+                                $plano = $_GET['plano'];
+                                if (strtoupper($plano) == "BASIC") echo("<option selected>BASIC</option>"); else echo("<option>BASIC</option>");
+                                if (strtoupper($plano) == "MID") echo("<option selected>MID</option>"); else echo("<option>MID</option>");
+                                if (strtoupper($plano) == "ABSOLUTE") echo("<option selected>ABSOLUTE</option>"); else echo("<option>ABSOLUTE</option>");
+                            ?>
+                        </select><br>
+                        <label>Mensagem:</label><br>
+                        <textarea name="mensagem" id="mensagem"></textarea>
                     </form>
-                </div>
-                <div class="botao-container bt-enviar" id="enviar">
-                    <a href="#" class="bt-padrao bt-azul"><div ><p class="botao">ENVIAR</p></div></a>
+                    <div class="botao-container bt-enviar" id="enviar">
+                        <a href="#" class="bt-padrao bt-azul"><div><p class="botao">ENVIAR</p></div></a>
+                    </div>
                 </div>
             </section>
-
+            <?php include("pesquise_marca.html"); ?>
 			<?php include("footer.html"); ?>
 		</div>
 	</body>

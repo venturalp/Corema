@@ -384,7 +384,6 @@ iframe {
     background-color: #F5F0EC;
     position: relative;
     margin-top: 50px;
-    display: inline;
 }
 
 h1{
@@ -437,7 +436,7 @@ h1{
     width: 670px;
     margin: 0 auto;
     margin-bottom: 0;
-    margin-top: 30px;
+    text-align: justify;
 }
 
 .empresa-div{
@@ -778,7 +777,7 @@ h1{
 }
 
 .informativo-content {
-    width: 580px;
+    width: 620px;
 }
 
 .destaque-ebook {
@@ -786,6 +785,7 @@ h1{
     font-size: 1.9em;
     font-weight: bolder;
     font-style: italic;
+    width: 620px;
 }
 
 .destaque-ebook a{
@@ -827,7 +827,7 @@ h1{
 .bt-enviar {
     width: 170px;
     float: none !important;
-    height: 120px;
+    height: 100px;
 }
 
 .alerta {
@@ -947,6 +947,7 @@ button.blue {
     width: 740px;
     margin: 0 auto;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 .duvida-container img{
@@ -958,8 +959,8 @@ button.blue {
 
 .informativo-container {
     margin: 0 auto;
-    padding-top: 30px;
-    width: 650px;
+    width: 620px;
+    text-align: justify;
 }
 
 .contato-container {
@@ -976,7 +977,6 @@ button.blue {
 .cliente-container {
     width: 472px;
     margin: 0 auto;
-    padding-top: 25px;
 }
 
 .pesq-marca {
@@ -987,4 +987,78 @@ button.blue {
 .pesq-marca-container {
     width: 475px; margin: 0 auto;
     padding-top: 30px;
+}
+
+.plano {
+    position: relative;
+    display: block;
+    padding: 10px;
+}
+
+.plano:last-child{
+    margin-bottom: 25px;
+}
+
+.plano:first-child{
+    top: -40px;
+}
+
+
+.plano-content{
+    color: #999999;
+    font-family: Myriad, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.plano span:first-child{
+    color: #AB0917;
+    font-family: Myriad, sans-serif;
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+.sub-plano{
+    color: #999999;
+    font-family: Myriad, sans-serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-top: -8px;
+}
+
+.nossos-planos {
+    width: 720px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+.img-planos {
+    background-image: url("../images/planos.fw.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 340px;
+    margin-bottom: -40px;
+    z-index: 900;
+    margin-top: 15px;
+}
+
+select {
+   background-color: #FFFFFF;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 22px;
+   border: 1;
+   border-radius: 0;
+   padding: 0px 5px 0px 5px;
+   margin-bottom: 6px;
+    width: 472px;
+    margin-bottom: 20px;
+    border: 0px;
+    font-size: 16pt;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 2px 2px 1px #CCC;
+    color: #858585;
 }
