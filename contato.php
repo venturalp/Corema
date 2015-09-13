@@ -65,9 +65,8 @@
                         <a href="#" class="bt-padrao bt-azul"><div><p class="botao">ENVIAR</p></div></a>
                     </div>
                 </div>
-                <?php include("pesquise_marca.html"); ?>
             </section>
-
+            <?php include("pesquise_marca.html"); ?>
 			<?php include("footer.html"); ?>
 		</div>
 	</body>

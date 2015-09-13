@@ -546,6 +546,7 @@ h1{
 
 .contato {
     position: relative;
+    display: block;
 }
 
 .form-padrao textarea, .form-padrao input{
@@ -572,7 +573,6 @@ h1{
 }
 
 .sub-contato {
-    padding-left: 75px;
 }
 
 .cliente {
@@ -963,7 +963,8 @@ button.blue {
 }
 
 .contato-container {
-    margin-left: 37%;
+    margin: 0 auto;
+    width: 492px;
 }
 
 .ebook-container {
