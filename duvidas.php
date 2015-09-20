@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Corema - Consultoria em Registro de Marcas</title>
+        <?php include("tags.html"); ?>
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="prefixfree.min.js"></script>

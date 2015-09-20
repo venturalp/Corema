@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Corema - Consultoria em Registro de Marcas</title>
+        <?php include("tags.html"); ?>
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="prefixfree.min.js"></script>
@@ -23,6 +24,7 @@
                         op: "pesquisa-marca",
                         name: $("#nome").val(),
                         email: $("#email").val(),
+                        telefone: $("#telefone").val(),
                         marca: $("#marca").val(),
                         ramo: $("#ramo").val()
                     };
@@ -61,7 +63,9 @@
                     <form class="formulario clearfix" id="ajax_form" method="post" onsubmit="return false;">
                         <h2>Pesquise sua marca</h2>
                         <label>Nome completo:</label><br>
-                        <input type="text" id="nome" class="msg_erro"><br>
+                        <input type="text" id="nome"><br>
+                        <label>Telefone:</label><br>
+                        <input type="text" id="telefone"><br>
                         <label>E-mail:</label><br>
                         <input type="text" id="email"><br>
                         <label>Marca que deseja registrar:</label><br>
@@ -74,7 +78,7 @@
 			</section>
 			<section class="porque">
                 <div class="icon-group">
-                    <a href="informativo.php">
+                    <a href="registro_marca.php">
                     <div>
                         <div class="circulo"><span class="icon">?</span></div>
                         <span class="desq">POR QUE<br>REGISTRAR?</span>
@@ -87,10 +91,12 @@
                     </div>
                     </a>
 
+                    <a href="pesquise-marca.php">
                     <div>
                         <div class="circulo cir-left"><span class="icon">!</span></div>
                         <span class="desq">QUERO<br>REGISTRAR!</span>
                     </div>
+                    </a>
                 </div>
 
 			</section>

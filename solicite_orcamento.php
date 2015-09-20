@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Corema - Consultoria em Registro de Marcas</title>
+        <?php include("tags.html"); ?>
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="prefixfree.min.js"></script>
@@ -24,6 +25,7 @@
                         op: "orcamento",
                         name: $("#nome").val(),
                         email: $("#email").val(),
+                        telefone: $("#telefone").val(),
                         message: $("#mensagem").val(),
                         subjetc: $("#plano option:selected").text()
                     };
@@ -57,6 +59,8 @@
                     <form class="form-padrao" id="ajax_form" method="post" onsubmit="return false;">
                         <label>Nome:</label><br>
                         <input type="text" name="nome" id="nome"><br>
+                        <label>Telefone:</label><br>
+                        <input type="text" name="telefone" id="telefone"><br>
                         <label>E-mail:</label><br>
                         <input type="text" name="email" id="email"/><br>
                         <label>Plano:</label><br>

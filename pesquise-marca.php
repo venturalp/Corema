@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Corema - Consultoria em Registro de Marcas</title>
+        <?php include("tags.html"); ?>
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="prefixfree.min.js"></script>
@@ -24,6 +25,7 @@
                         op: "pesquisa-marca",
                         name: $("#nome").val(),
                         email: $("#email").val(),
+                        telefone: $("#telefone").val(),
                         marca: $("#marca").val(),
                         ramo: $("#ramo").val()
                     };
@@ -58,6 +60,8 @@
                     <form class="form-padrao" id="ajax_form" method="post" onsubmit="return false;">
                         <label>Nome completo:</label><br>
                         <input type="text" id="nome"><br>
+                        <label>Telefone:</label><br>
+                        <input type="text" id="telefone"><br>
                         <label>E-mail:</label><br>
                         <input type="text" id="email"/><br>
                         <label>Marca que deseja registrar:</label><br>

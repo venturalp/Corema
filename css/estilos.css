@@ -77,8 +77,9 @@ nav a:hover{
 .contatos {
     display: block;
     float: right;
+    left: -200px;
     position: relative;
-    top: -52px;
+    top: -34px;
 }
 
 .contatos span {
@@ -124,7 +125,7 @@ nav a:hover{
 .destaque form{
 	background-color: #00385C;
 	width: 184px;
-	height: 238px;
+	height: 280px;
 	color: #FFF;
     font-size: 12px;
 	font-family: Myriad, sans-serif;
@@ -238,7 +239,7 @@ html, body {height:100%;}
 	display: block;
     position: relative;
     padding: 25px 0 10px 0;
-    height: 120px;
+    height: 140px;
 	width: 100%;
 	background-color: #00385C;
     color: white;
@@ -256,7 +257,6 @@ html, body {height:100%;}
 }
 
 footer{
-
 	width: 100%;
 	background-color: #00385C;
     display: block;
@@ -766,14 +766,14 @@ h1{
 }
 
 .informativo h3 {
-    margin-top: 85px;
+    margin-top: 25px;
 }
 
 
 
 .informativo-content p{
     color: #858585;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
 }
 
 .informativo-content {
@@ -963,6 +963,10 @@ button.blue {
     text-align: justify;
 }
 
+.informativo-container li{
+    color: #858585;
+}
+
 .contato-container {
     margin: 0 auto;
     width: 492px;
@@ -1061,4 +1065,15 @@ select {
     padding: 10px 5px 10px 5px;
     box-shadow: 2px 2px 1px #CCC;
     color: #858585;
+}
+
+.contatos-container {
+
+}
+
+.telefones {
+    top: -40px;
+    left: -30px;
+    position: relative;
+    float: right;
 }
