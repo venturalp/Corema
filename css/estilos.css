@@ -963,6 +963,12 @@ button.blue {
     text-align: justify;
 }
 
+.informativo-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
 .informativo-container li{
     color: #858585;
 }

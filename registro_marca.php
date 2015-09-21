@@ -20,6 +20,7 @@
                     <h1>REGISTRO DE MARCA</h1>
                     <h3 class="subtitulo-content">Importância da Marca</h3>
                     <article class="informativo-content">
+                    <a href="nossos_planos.php"><img src="images/nossos_planos.png"/></a>
                     <p>Quando você decidiu abrir um empreendimento, além de pensar em como desenvolver seu trabalho de forma única e exemplar provavelmente surgiu também a dúvida em relação ao nome de sua empresa: </p>
                     <ul>
                         <li>“Tenho que colocar uma Marca?”</li>
