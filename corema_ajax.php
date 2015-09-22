@@ -15,7 +15,7 @@ if($_POST){
         if (mail($to, $subject, $message, $headers))
             echo "Email enviado com sucesso!";
         else
-            echo "Erro ao enviar email, tente novamente.";
+            echo "failed";
     }
 
     if ($_POST['op'] == "orcamento")
@@ -32,7 +32,7 @@ if($_POST){
         if (mail($to, $subject, $message, $headers))
             echo "Email enviado com sucesso!";
         else
-            echo "Erro ao enviar email, tente novamente.";
+            echo "failed";
     }
 
     if ($_POST['op'] == "pesquisa-marca")
@@ -51,7 +51,7 @@ if($_POST){
         if (mail($to, $subject, $message, $headers))
             echo "Email enviado com sucesso!";
         else
-            echo "Erro ao enviar email, tente novamente.";
+            echo "failed";
     }
 
 //    if ($_POST['op'] == "contato")

@@ -1083,3 +1083,7 @@ select {
     position: relative;
     float: right;
 }
+
+.txtCenter {
+    text-align: center;
+}

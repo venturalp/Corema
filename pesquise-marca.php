@@ -37,8 +37,12 @@
                         success: function( data )
                         {
                             $("#overlay").hide();
-                            $("#alerta").text(data);
-                            $( "#alerta" ).fadeOut( 2600 );
+                            //$("#alerta").text(data);
+                            //$( "#alerta" ).fadeOut( 2600 );
+                            if (data == "failed")
+                                window.location.href = "nao_enviado.php";
+                            else
+                                window.location.href = "enviado.php";
                             $("#ajax_form")[0].reset();
                         }
 
@@ -63,7 +67,7 @@
                         <label>Telefone:</label><br>
                         <input type="text" id="telefone"><br>
                         <label>E-mail:</label><br>
-                        <input type="text" id="email"/><br>
+                        <input type="email" id="email"/><br>
                         <label>Marca que deseja registrar:</label><br>
                         <input type="text" id="marca"/><br>
                         <label>Ramo de atividade:</label><br>

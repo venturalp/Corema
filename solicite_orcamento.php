@@ -37,9 +37,13 @@
                         success: function( data )
                         {
                             $("#overlay").hide();
-                            $("#alerta").text(data);
-                            $( "#alerta" ).fadeOut( 2600 );
+                            //$("#alerta").text(data);
+                            //$( "#alerta" ).fadeOut( 2600 );
                             $("#ajax_form")[0].reset();
+                            if (data == "failed")
+                                window.location.href = "nao_enviado.php";
+                            else
+                                window.location.href = "enviado.php";
                         }
 
                     });
