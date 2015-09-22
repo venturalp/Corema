@@ -33,13 +33,6 @@
                     <img src="images/8.jpg"/>
                     <br><br>
                     <h3 class="subtitulo-content clearfix">Algumas Vantagens do Registro de Marca:</h3>
-
-
-
-
-
-
-
                     <ul>
                         <li>- Possibilita que os consumidores diferenciem produtos ou serviços;</li>
                         <li>- Permite que as empresas promovam seu portfólio de produtos ou serviços;</li>

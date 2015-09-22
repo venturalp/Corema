@@ -9,8 +9,19 @@
 		<script src="prefixfree.min.js"></script>
 		<script src="html5shiv-printshiv.min.js"></script>
         <script src="jquery-2.1.3.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.mask.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function(){
+
+                $("#telefone").mask('(00) 0000-00009');
+                 $("#telefone").blur(function(event) {
+                   if($("#telefone").val().length == 15){ // Celular com 9 dígitos + 2 dígitos DDD e 4 da máscara
+                      $("#telefone").mask('(00) 00000-0009');
+                   } else {
+                      $("#telefone").mask('(00) 0000-00009');
+                   }
+                });
+
 
                 $('#enviar').click(function(){
 
@@ -68,13 +79,13 @@
                     <form class="formulario clearfix" id="ajax_form" method="post" onsubmit="return false;">
                         <h2>Pesquise sua marca</h2>
                         <label>Nome completo:</label><br>
-                        <input type="text" id="nome"><br>
+                        <input type="text" id="nome" required><br>
                         <label>Telefone:</label><br>
-                        <input type="text" id="telefone"><br>
+                        <input type="text" id="telefone" required><br>
                         <label>E-mail:</label><br>
-                        <input type="text" id="email"><br>
+                        <input type="email" id="email" placeholder="email@provedor.com" required><br>
                         <label>Marca que deseja registrar:</label><br>
-                        <input type="text" id="marca"><br>
+                        <input type="text" id="marca" required><br>
                         <label>Ramo de atividade:</label><br>
                         <input type="text" id="ramo"><br>
                         <input type="submit" value="Enviar">
