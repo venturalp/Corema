@@ -9,12 +9,15 @@
 		<script src="prefixfree.min.js"></script>
 		<script src="html5shiv-printshiv.min.js"></script>
         <script src="jquery-2.1.3.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.mask.js" type="text/javascript"></script>
+        <script src="scripts/corema.js" type="text/javascript"></script>
 
         <script type="text/javascript">
             $(document).ready(function(){
+                realTimeValidator("input[required], #mensagem", "#telefone");
 
                 $('#enviar').click(function(){
-                    $("#ajax_form").submit();
+                    if (validaCampos("input[required], #mensagem")) $("#ajax_form").submit();
                 });
 
 
@@ -61,12 +64,12 @@
                 <div class="contato-container">
                     <p class="subtitulo sub-contato">Solicite um orçamento: </p>
                     <form class="form-padrao" id="ajax_form" method="post" onsubmit="return false;">
-                        <label>Nome:</label><br>
-                        <input type="text" name="nome" id="nome"><br>
-                        <label>Telefone:</label><br>
-                        <input type="text" name="telefone" id="telefone"><br>
-                        <label>E-mail:</label><br>
-                        <input type="text" name="email" id="email"/><br>
+                        <label>*Nome:</label><br>
+                        <input type="text" name="nome" id="nome" required><br>
+                        <label>*Telefone:</label><br>
+                        <input type="text" name="telefone" id="telefone" required><br>
+                        <label>*E-mail:</label><br>
+                        <input type="text" name="email" id="email" required placeHolder="email@provedor.com"/><br>
                         <label>Plano:</label><br>
                         <select id="plano">
                              <?php
@@ -76,8 +79,8 @@
                                 if (strtoupper($plano) == "ABSOLUTE") echo("<option selected>ABSOLUTE</option>"); else echo("<option>ABSOLUTE</option>");
                             ?>
                         </select><br>
-                        <label>Mensagem:</label><br>
-                        <textarea name="mensagem" id="mensagem"></textarea>
+                        <label>*Mensagem:</label><br>
+                        <textarea name="mensagem" id="mensagem" required></textarea>
                     </form>
                     <div class="botao-container bt-enviar" id="enviar">
                         <a href="#" class="bt-padrao bt-azul"><div><p class="botao">ENVIAR</p></div></a>
