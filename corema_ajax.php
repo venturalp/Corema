@@ -8,7 +8,7 @@ if($_POST){
         $email = $_POST['email'];
         $message = "Nome: " . $name . "\nEmail: " . $email. "\n\nMensagem: " . $_POST['message'];
         $subject = 'Contato - Corema';
-        $headers = 'From: Pesquisa Marca<contato@coremamarcas.com> ' . 'Reply-To: ' . $email . "\r\n";
+        $headers = 'From: Contato<contato@coremamarcas.com>';
 
 
         //send email
@@ -25,7 +25,7 @@ if($_POST){
         $telefone = $_POST['telefone'];
         $message = "Nome: " . $name . "\nEmail: " . $email. "\nTelefone: " . $telefone. "\n\nMensagem: " . $_POST['message'];
         $subject = "Orçamento - " . $_POST['subjetc'];
-        $headers = 'From: Pesquisa Marca<contato@coremamarcas.com> ' . 'Reply-To: ' . $email . "\r\n";
+        $headers = 'From: Orçamento<contato@coremamarcas.com>';
 
 
         //send email
@@ -44,8 +44,7 @@ if($_POST){
         $ramo = $_POST['ramo'];
         $message = "Nome: " . $name . "\nEmail: " . $email. "\nTelefone: ". $telefone . "\nMarca: " . $marca . "\nRamo: " . $ramo;
         $subject = 'Pesquise sua marca - Corema';
-        $headers = 'From: Pesquisa Marca<contato@coremamarcas.com> ' . 'Reply-To: ' . $email . "\r\n";
-
+        $headers = 'From: Pesquisa Marca<contato@coremamarcas.com>';
 
         //send email
         if (mail($to, $subject, $message, $headers))
