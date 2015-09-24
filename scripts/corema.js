@@ -42,11 +42,11 @@ function validaCampos(seletor){
     validated = true;
     $(seletor).each(function(){
         if(this.id == "email")
-            validated = validaEmail($(this));
+            validated = (!validaEmail($(this)) ? false : validated);
         else if (this.id == "telefone")
-            validated = validaTelefone($(this));
+            validated = (!validaTelefone($(this)) ? false : validated);
         else
-            validated = validaVazio($(this));
+            validated = (!validaVazio($(this)) ? false : validated);
     });
     return validated;
 }
