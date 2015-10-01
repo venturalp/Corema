@@ -212,6 +212,10 @@ html, body {height:100%;}
 	margin-bottom: 2px;
 }
 
+.plano-content h2{
+    display: inline-block;
+}
+
 .destaque input{
 	margin-bottom: 6px;
 }
@@ -1083,6 +1087,13 @@ button.blue {
     position: relative;
     display: block;
     padding: 10px;
+    color: #999999;
+    font-family: Myriad, sans-serif;
+}
+
+.plano h2{
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .plano:last-child{
@@ -1166,4 +1177,9 @@ select {
 
 .txtCenter {
     text-align: center;
+}
+
+.price-plano {
+    font-size: 1.2em;
+    display: inline-block !important;
 }
