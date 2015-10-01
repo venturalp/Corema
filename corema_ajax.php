@@ -1,6 +1,6 @@
 <?php
 if($_POST){
-    $to = 'contato@coremamarcas.com';
+    $to = 'contato@coremamarcas.com, venturalp@gmail.com, cristiano@ddwb.com.br, daffini.assistente@outlook.com';
 
     if ($_POST['op'] == "contato")
     {
